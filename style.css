@@ -54,3 +54,19 @@ button:active{
 .operator:hover{
     background-color: hsl(35, 100%, 55%);
 }
+
+/* media querry */
+
+@media (max-width: 640px){
+    .calculator{
+        margin: 25px;
+    }
+    button{
+        width: 75px;
+        height: 75px;
+        font-size: 1rem;
+    }
+    #keys{
+        padding: 15px;
+    }
+}
